@@ -2,7 +2,7 @@
 body {
     margin: 0px;
 }
-
+/*region header*/
 header {
     background-color: lightgreen;
     height: 40px;
@@ -22,7 +22,7 @@ header {
 .link {
     background-color: green;
     height: 15px;
-    width: 40px;
+    width: 30px;
 }
 
 
@@ -31,8 +31,9 @@ header {
     height: 15px;
     width: 30px;
 }
+/*endregion header*/
 
-/*site_main*/
+/*region main*/
 main {
     display: flex;
     flex-direction: column;
@@ -99,8 +100,9 @@ main {
     background-color: lightpink;
 }
 
-/*end_site_main*/
+/*endregion main*/
 
+/*region footer*/
 footer {
     display: flex;
     flex-direction: column;
@@ -130,6 +132,7 @@ footer {
     margin-top: 2px;
 }
 
+/*secon footersize */
 .endpage {
     height: 40px;
     display: flex;
@@ -138,23 +141,23 @@ footer {
     justify-content: center;
 }
 
-.endbox 
-{
-    padding: 6px 40px;
+.endbox {
+    padding: 6px 0px;
+    width: 100px;
     background-color: rgb(113, 132, 255);
     display: flex;
-    align-items: row;
-    justify-content: baseline;
+    justify-content: space-between;
 }
 
 .logof {
     background-color: pink;
     height: 15px;
-    width: 40px;
+    width: 30px;
 }
 
 .loginf {
     background-color: pink;
     height: 15px;
-    width: 40px;
+    width: 30px;
 }
+/*endregion footer*/
