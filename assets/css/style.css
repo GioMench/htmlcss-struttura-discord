@@ -1,4 +1,43 @@
-body
+body{
+    margin:0px;
+}
+
+header
 {
-    background-color: brown;
+    background-color: lightgreen;
+    height: 30px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo
+{
+    background-color: yellow;
+    height: 15px;
+    text-align: center;
+    width: 40px;
+}
+
+.link
+{
+    background-color: green;
+    height: 15px;
+    width: 90px;
+}
+
+
+.login
+{
+    background-color: yellow;
+    height: 15px;
+    width: 40px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
 }
