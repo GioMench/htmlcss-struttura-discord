@@ -104,3 +104,21 @@ main
     padding: 30px 15px;
     background-color: crimson;
 }
+
+.single
+{
+    padding: 37px 50px;
+    background-color: lightpink;
+}
+/*end_site_main*/
+
+.footer
+{
+    background-color: rgb(176, 251, 251);
+    height: 60px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;  
+}
+
